@@ -17,6 +17,7 @@ from .forms import ModuleFormSet
 from .models import Course
 from .models import Module, Content
 from .models import Subject
+from django.core.cache import cache
 
 
 class ManageCourseListView(ListView):
